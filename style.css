@@ -1,4 +1,5 @@
 html {
+    background-color: darkslategray;
     display: flex;
 }
 
@@ -10,15 +11,29 @@ body {
 
 .maincontainer {
     max-width: 960px;
-    align-content: center;
+    flex: 1;
 }
 
 #nameplate {                             /*designing the nameplate for the top*/
-    float: left;
     color: #ffffff;
     background-color: #4aaaa5;
     padding: 15px;
     margin: 5px;
+}
+
+h1 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #4aaaa5;
+    font-size: 2rem;
+    margin: 0.3rem;
+    
+}
+
+hr {                                            /*making the horizontal rule the right collor and width*/
+    color: #777777;
+    background-color: #777777;
+    height: 3px;
+    margin: 0px 10px 0px 10px;
 }
 
 
@@ -38,3 +53,4 @@ p {
 .navlink {
     font-size: 1.5rem;
 }
+
