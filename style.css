@@ -1,0 +1,40 @@
+html {
+    display: flex;
+}
+
+body {
+    font-size: 1.5rem;
+    display: flex;
+}
+
+
+.maincontainer {
+    max-width: 960px;
+    align-content: center;
+}
+
+#nameplate {                             /*designing the nameplate for the top*/
+    float: left;
+    color: #ffffff;
+    background-color: #4aaaa5;
+    padding: 15px;
+    margin: 5px;
+}
+
+
+img.headshot {
+    height: 300px;
+    width: 300px;
+    float: left;
+    margin: 20px;
+}
+
+p {
+    margin: 20px;
+    font-size: 20px;
+}
+
+
+.navlink {
+    font-size: 1.5rem;
+}
