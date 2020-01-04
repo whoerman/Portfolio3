@@ -14,48 +14,49 @@
     <title>Contact Walter Hoerman</title>
 </head>
 <body>
-<!--Top nav bar-->
-<div class="container-fluid">
-    <div class="row">
-      <div class="d-flex col-12 justify-content-center">
-        <img src="./assets/Walter Hoerman label.jpg" alt="Walter Hoerman MD">
-      </div>
-      <div class="col-12 justify-content-center">
-        <ul class="nav justify-content-end">
-          <li class="nav-item">
-            <a class="nav-link" href="index.html"><h4>About Me</h4></a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="Portfolio.html"><h4>Portfolio</h4></a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="contact.html"><h4>Contact</h4></a>
-          </li>
-        </ul>
-      </div>
-    </div>
+  <!--Top nav bar-->
+  <div class="container-fluid">
     <div class="row">
       <div class="container">
-        <div class="col-12">
+        <div class="d-flex justify-content-left">
+          <img src="./assets/Walter Hoerman label.jpg" alt="Walter Hoerman MD">
+        </div>
+        <div class="d-flex justify-content-end">
+          <ul class="nav">
+            <li class="nav-item">
+              <a class="nav-link" href="index.html"><h4>About Me</h4></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="Portfolio.html"><h4>Portfolio</h4></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contact.html"><h4>Contact</h4></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+    <div class="row">
+      <div class="container">
             <h1>Contact Form</h1>  
             <hr>
-              <div class="formcontainer"></div>
             <form>
-              <label for="name">First Name</label> <br>
-              <input type="text" name="name" placeholder="John Smith">
-                  <br>
-                  <br>
-              <label for="name">Email</label> <br>
-              <input type="text" name="email" placeholder="example@gmail.com">
-                  <br>
-                  <br>
-              <label for="message">Message</label> <br>
-              <textarea name="message" placeholder="How can I help you?"></textarea>
-                  <br>
-              
-                  <input id="submit" type="submit" value="Submit">
-            </form>
-        </div>
+                <div class="form-group">
+                    <label for="exampleInputPassword1">Name</label>
+                    <input type="password" class="form-control" id="exampleInputPassword1">
+                  </div>
+                <div class="form-group">
+                  <label for="exampleInputEmail1">Email address</label>
+                  <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                  </div>
+                  <div class="form-group">
+                    <label for="exampleFormControlTextarea1">Message</label>
+                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                  </div>
+                <button type="submit" class="btn btn-primary">Submit</button>
+              </form>
+        
       </div>
     </div>
   </div>       
